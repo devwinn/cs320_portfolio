@@ -1,4 +1,5 @@
-# CS-320 Portfolio
+# CS-320 Portfolio  
+
 This repository has my contact service files from Project One (Contact.java, ContactService.java, ContactTest.java, and ContactServiceTest.java) and my summary and reflections report from Project Two.  
 
 To make sure my code is functional and secure, I test every requirement and don't stop once the code seems to work. In the contact service, I tested valid and invalid inputs, including values right at the length limits and just past them. My tests reached 100% coverage, but I also made sure they had assertions that checked the expected results, since coverage alone doesn't prove the code is correct. For security, I validated each field, rejected null objects, and kept the contact ID from being changed so bad data couldn't get into the program. To understand what users need, I treat the requirements as their needs and make sure there's at least one test for each one. Basing my tests on the requirements also helped limit bias, since I was checking what the customer asked for and not just what I knew my code would do.
