@@ -1,2 +1,6 @@
-# cs320_portfolio
-Module 8 portfolio assignment for CS-320.
+# CS-320 Portfolio
+This repository has my contact service files from Project One (Contact.java, ContactService.java, ContactTest.java, and ContactServiceTest.java) and my summary and reflections report from Project Two.  
+
+To make sure my code is functional and secure, I test every requirement and don't stop once the code seems to work. In the contact service, I tested valid and invalid inputs, including values right at the length limits and just past them. My tests reached 100% coverage, but I also made sure they had assertions that checked the expected results, since coverage alone doesn't prove the code is correct. For security, I validated each field, rejected null objects, and kept the contact ID from being changed so bad data couldn't get into the program. To understand what users need, I treat the requirements as their needs and make sure there's at least one test for each one. Basing my tests on the requirements also helped limit bias, since I was checking what the customer asked for and not just what I knew my code would do.
+
+When designing software, I try to break the program into smaller pieces that each have one job. Each feature in Project One had an object class that validated its own fields and a service class that managed those objects, which kept the code organized and easier to test. This course also showed me the value of writing tests while I write the code and keeping the same standard across similar classes.
